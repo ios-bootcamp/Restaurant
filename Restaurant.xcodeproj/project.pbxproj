@@ -12,6 +12,13 @@
 		FB335E3D227BCBBA00F15C64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB335E3B227BCBBA00F15C64 /* Main.storyboard */; };
 		FB335E3F227BCBBB00F15C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB335E3E227BCBBB00F15C64 /* Assets.xcassets */; };
 		FB335E42227BCBBB00F15C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB335E40227BCBBB00F15C64 /* LaunchScreen.storyboard */; };
+		FB335E4A227BD11A00F15C64 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB335E49227BD11A00F15C64 /* CategoryTableViewController.swift */; };
+		FB335E4C227BD12D00F15C64 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB335E4B227BD12D00F15C64 /* MenuTableViewController.swift */; };
+		FB335E4E227BD13E00F15C64 /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB335E4D227BD13E00F15C64 /* OrderTableViewController.swift */; };
+		FB335E50227BD2AB00F15C64 /* MenuItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB335E4F227BD2AB00F15C64 /* MenuItemViewController.swift */; };
+		FB335E52227BD35700F15C64 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB335E51227BD35700F15C64 /* MenuItem.swift */; };
+		FB335E54227BD52800F15C64 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB335E53227BD52800F15C64 /* MenuController.swift */; };
+		FB335E56227F4C6100F15C64 /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB335E55227F4C6100F15C64 /* OrderConfirmationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		FB335E3E227BCBBB00F15C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB335E41227BCBBB00F15C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB335E43227BCBBB00F15C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB335E49227BD11A00F15C64 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		FB335E4B227BD12D00F15C64 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		FB335E4D227BD13E00F15C64 /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		FB335E4F227BD2AB00F15C64 /* MenuItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemViewController.swift; sourceTree = "<group>"; };
+		FB335E51227BD35700F15C64 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		FB335E53227BD52800F15C64 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		FB335E55227F4C6100F15C64 /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,13 @@
 				FB335E3E227BCBBB00F15C64 /* Assets.xcassets */,
 				FB335E40227BCBBB00F15C64 /* LaunchScreen.storyboard */,
 				FB335E43227BCBBB00F15C64 /* Info.plist */,
+				FB335E49227BD11A00F15C64 /* CategoryTableViewController.swift */,
+				FB335E4B227BD12D00F15C64 /* MenuTableViewController.swift */,
+				FB335E4D227BD13E00F15C64 /* OrderTableViewController.swift */,
+				FB335E4F227BD2AB00F15C64 /* MenuItemViewController.swift */,
+				FB335E51227BD35700F15C64 /* MenuItem.swift */,
+				FB335E53227BD52800F15C64 /* MenuController.swift */,
+				FB335E55227F4C6100F15C64 /* OrderConfirmationViewController.swift */,
 			);
 			path = Restaurant;
 			sourceTree = "<group>";
@@ -135,8 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB335E54227BD52800F15C64 /* MenuController.swift in Sources */,
+				FB335E52227BD35700F15C64 /* MenuItem.swift in Sources */,
+				FB335E50227BD2AB00F15C64 /* MenuItemViewController.swift in Sources */,
+				FB335E4C227BD12D00F15C64 /* MenuTableViewController.swift in Sources */,
+				FB335E4E227BD13E00F15C64 /* OrderTableViewController.swift in Sources */,
+				FB335E56227F4C6100F15C64 /* OrderConfirmationViewController.swift in Sources */,
 				FB335E3A227BCBBA00F15C64 /* ViewController.swift in Sources */,
 				FB335E38227BCBBA00F15C64 /* AppDelegate.swift in Sources */,
+				FB335E4A227BD11A00F15C64 /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
